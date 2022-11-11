@@ -15,5 +15,5 @@
 * [Constructeurs](Cours/2.constructeurs.md)
 * [Encapsulation](Cours/2.encapsulation.md)
 * [Héritage](Cours/2.heritage.md)
-* [Interface](Cours/2.interface.md)
+* [Interface](Cours/2.interfaces.md)
 * [Classe abstraite](Cours/2.classe-abstraite.md)
