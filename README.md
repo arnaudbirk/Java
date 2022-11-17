@@ -17,6 +17,7 @@
 * [Héritage](Cours/2.heritage.md)
 * [Interface](Cours/2.interface.md)
 * [Classe abstraite](Cours/2.classe-abstraite.md)
+* [Polymorphisme](Cours/2.polymorphisme.md)
 
 ## 3. Concept Solid
 
