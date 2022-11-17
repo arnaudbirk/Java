@@ -17,3 +17,12 @@
 * [Héritage](Cours/2.heritage.md)
 * [Interface](Cours/2.interface.md)
 * [Classe abstraite](Cours/2.classe-abstraite.md)
+
+## 3. Concept Solid
+
+* [**S** ingle responsibility principle / Principe de responsabilité unique](Cours/3.reponsabilite-unique.md)
+* [**O** pen close principle / Principe d'ouverture-fermeture](Cours/3.open-close.md)
+* [**L** iskov substitution principle / Principe de substitution de Liskov](Cours/3.liskov.md)
+* [**I** nterface segregation principle / Principe de ségrégation des interfaces](Cours/3.segregation.md)
+* [**D** ependency inversion principle / Principe d'inversion des dépendances](Cours/3.dependance.md)
+* [Autres bonnes pratiques](Cours/3.bonnes_pratiques.md)
