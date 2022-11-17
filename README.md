@@ -32,7 +32,7 @@
 
 * [Introduction](Cours/4.intro.md)
 * [Pattern Singleton](Cours/4.Singleton.md)
-* * [Pattern Composite](Cours/4.Composite.md)
+* [Pattern Composite](Cours/4.Composite.md)
 * [Pattern Factory](Cours/4.Factory.md)
 * [Pattern Stratégie](Cours/4.Strategie.md)
 * [Pattern State](Cours/4.State.md)
