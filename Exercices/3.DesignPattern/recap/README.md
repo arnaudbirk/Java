@@ -6,7 +6,7 @@ On modélise très simplement une API géospatiale dont l’implémentation est 
 
 Une modélisation simple de ce modèle de données ici : 
 
-[Enoncé exercice](../Exercices/3.DesignPattern/recao/)
+[Enoncé exercice](../Exercices/3.DesignPattern/recap/Exo_visitor_ennonce)
 
 ## Visitor
 
