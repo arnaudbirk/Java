@@ -4,7 +4,9 @@ On modélise très simplement une API géospatiale dont l’implémentation est 
 
 ![MD](./exo_recap.png)
 
-Une modélisation simple de ce modèle de données ici (lien à mettre)
+Une modélisation simple de ce modèle de données ici : 
+
+[Enoncé exercice](../Exercices/3.DesignPattern/recao/)
 
 ## Visitor
 
