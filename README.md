@@ -28,7 +28,7 @@
 * [**D** ependency inversion principle / Principe d'inversion des dépendances](Cours/3.dependance.md)
 * [Autres bonnes pratiques](Cours/3.bonnes_pratiques.md)
 
-## 3. Design Pattern
+## 4. Design Pattern
 
 * [Introduction](Cours/4.intro.md)
 * [Pattern Singleton](Cours/4.Singleton.md)
