@@ -10,4 +10,4 @@ Votre programme sera constitué des classes suivantes :
 	*  une méthode abstraite Afficher() (affichant le nom)
 
 * Une classe ```Fichier``` qui va étendre la classe abstraite ```FichierAbstrait```
-* Une classe Dossier qui va représenter un ensemble d'objet implémentant la classe ```FichierAbstrait```
+* Une classe ```Dossier``` qui va représenter un ensemble d'objet implémentant la classe ```FichierAbstrait```
