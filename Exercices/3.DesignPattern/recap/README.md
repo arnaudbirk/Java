@@ -4,6 +4,10 @@ On modélise très simplement une API géospatiale dont l’implémentation est 
 
 ![MD](./exo_recap.png)
 
+Une modélisation simple de ce modèle de données ici :
+
+[Enoncé exercice](./Exo_visitor_ennonce)
+
 ## Visitor
 
 Afin de ne pas encombree le modèle de données de tous les appels algorithmiques, on va séparer séparer les algorithmes du modèle de données. Pour cela, nous allons utiliser le pattern Singleton. **Réalisez ce refactoring**.
