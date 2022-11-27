@@ -38,3 +38,4 @@
 * [Pattern Factory](Cours/4.Factory.md)
 * [Pattern Visitor](Cours/4.Visitor.md)
 * [Exercice récapitulatif](Exercices/3.DesignPattern/recap/README.md)
+* [Pattern Decorator](Cours/5.decorator.md)
