@@ -40,3 +40,4 @@
 * [Exercice récapitulatif](Exercices/3.DesignPattern/recap/README.md)
 * [Pattern Decorator](Cours/5.decorator.md)
 * [Pattern Observer](Cours/6.observer.md)
+* [Exercice récapitulatif](Exercices/3.DesignPattern/recap2/README.md)
