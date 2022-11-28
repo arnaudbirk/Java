@@ -4,11 +4,6 @@ import model.Scooter;
 
 public abstract class AbstractFactory {
 	
-	public static enum eType{
-		eElectrique,
-		eGasoline
-	}
-	
 	public static ElectricFactory getElectricFactory() {
 		return ElectricFactory.getInstance();
 	}
