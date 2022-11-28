@@ -33,14 +33,6 @@ public class App {
 		previus.doAction(player);
 		previus.doAction(player);
 
-		/*player.setState(play);
-		player.setState(play);
-		player.setState(pause);
-		player.setState(stop);
-		player.setState(play);
-		player.setState(stop);
-		player.setState(pause);*/
-
 		System.out.println('\n' + "----- End test -----");
 	}
 
