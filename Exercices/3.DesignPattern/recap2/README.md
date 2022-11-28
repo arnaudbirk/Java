@@ -22,4 +22,3 @@ L’appel à la méthode ```toString()``` héritée de ```Car``` sur un objet de
 ## Fabrique
 
 L'obectif est de créer une fabrique abstraite qui va permettre de créer des véhicules dans leurs versions essence ou éléctrique.
-
