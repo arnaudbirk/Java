@@ -12,15 +12,4 @@ public class StopState extends MusicPlayerState {
 		player.setPiste(0);
 		System.out.println("Et je stop tout...");	
 	}
-
-	public boolean isNextStateCompatible(MusicPlayerState nextState) {
-		if (nextState instanceof PauseState)
-			return false;
-		if (nextState instanceof NextState)
-			return false;
-		if (nextState instanceof PreviusState)
-			return false;
-		return true;
-	}
-	
 }
