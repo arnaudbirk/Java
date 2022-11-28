@@ -8,14 +8,10 @@ public abstract class MusicPlayerState {
 		this.name = name;
 	}
 	
-	public abstract void doAction();
+	public abstract void doAction(MusicPlayer player);
 	
 	public String getName() {
 		return name;
-	}
-
-	public boolean isNextStateCompatible(MusicPlayerState nextState) {
-		return true;
 	}
 	
 }

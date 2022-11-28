@@ -11,14 +11,35 @@ public class App {
 		PlayState play = new PlayState();
 		PauseState pause = new PauseState();
 		StopState stop = new StopState();
+		NextState next = new NextState();		
+		PreviusState previus = new PreviusState();
 		
-		player.setState(play);
+		//play.doAction(player);
+		//pause.doAction(player);
+		stop.doAction(player);
+		play.doAction(player);
+		next.doAction(player);
+		previus.doAction(player);
+		next.doAction(player);
+		next.doAction(player);
+		next.doAction(player);
+		next.doAction(player);
+		previus.doAction(player);
+		stop.doAction(player);
+		previus.doAction(player);
+		previus.doAction(player);
+		previus.doAction(player);
+		stop.doAction(player);
+		previus.doAction(player);
+		previus.doAction(player);
+
+		/*player.setState(play);
 		player.setState(play);
 		player.setState(pause);
 		player.setState(stop);
 		player.setState(play);
 		player.setState(stop);
-		player.setState(pause);
+		player.setState(pause);*/
 
 		System.out.println('\n' + "----- End test -----");
 	}

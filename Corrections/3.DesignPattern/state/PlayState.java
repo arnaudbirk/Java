@@ -7,8 +7,9 @@ public class PlayState extends MusicPlayerState {
 	}
 
 	@Override
-	public void doAction() {
-		System.out.println("Et je met le son !");	
+	public void doAction(MusicPlayer player) {
+		player.setState(this);
+		System.out.println("Et je met le son !");
 	}
 
 
