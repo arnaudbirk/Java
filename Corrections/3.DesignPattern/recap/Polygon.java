@@ -37,7 +37,7 @@ public class Polygon extends IGeometryOperator {
 	}
 	
 	public Polygon getConvexEnveloppe() {
-		return strategie.execute(null);
+		return strategie.execute(this);
 	}
 	
 	public void setStrategie(convexhullstrategie strategie) {
