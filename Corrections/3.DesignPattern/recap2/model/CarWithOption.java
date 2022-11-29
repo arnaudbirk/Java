@@ -9,8 +9,8 @@ public abstract class CarWithOption extends Car{
 	private int sup; // prix de l'option
 
 
-	public CarWithOption(String name, String type, Car car, int sup, int prix) {
-		super(name, type, prix);
+	public CarWithOption(Car car, int sup) {
+		super(car.getName(), car.getType(), car.getPrix());
 		this.car = car;
 		this.sup = sup;
 	}
