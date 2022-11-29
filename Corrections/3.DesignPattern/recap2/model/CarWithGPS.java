@@ -4,7 +4,7 @@ public class CarWithGPS extends CarWithOption{
 	public final static int prix_option = 500;
 		
 	public CarWithGPS(Car car){
-		super(car.getName(), car.getType(), car, prix_option, car.getPrix());
+		super(car, prix_option);
 	}
 
 	@Override
