@@ -8,7 +8,7 @@ Pour information, les 2 fabriques ```ElectricFactory``` et ```GasolineFactory```
 
 Voici le diagramme UML :
 
-![diagramme factory](img/factory2.png)
+![diagramme factory](img/factory.png)
 
 Pout tester votre application, utilisez le code suivant :
 
