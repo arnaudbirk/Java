@@ -30,7 +30,7 @@ On se propose de refactorer cela via un pattern strategy. **Réalisez ce refacto
 * créer ensuite les différentes classes concréte en fonction des 2 algorithmes (Jarvis et Graham).
 * enfin, modifier la classe ```Polygon``` pour qu'elle puisse prendre en compte ces calculs (cette classe ne voit que la classe abstraite).
 
-## factory simple
+## Factory simple
 
 On décide de déléguer la création des objets héritant de Geometry à une fabrique.
 
