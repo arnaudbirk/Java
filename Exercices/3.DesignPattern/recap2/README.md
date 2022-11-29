@@ -1,12 +1,30 @@
 # Exercice - Recap 2
 
+## Fabrique - Singleton
+
+L'obectif est de créer une fabrique abstraite qui va permettre de créer des véhicules (Car ou Scooter) Electrique ou à Essence à partir de 2 sous-fabriques héritant de la fabrique abstraite.
+
+Pour information, les 2 fabriques ```ElectricFactory``` et ```GasolineFactory``` sont des singletons.
+
+Voici le diagramme UML :
+
+![diagramme factory](img/factory.png)
+
+Pout tester votre application, utilisez le code suivant :
+
+``` java
+AbstractFactory factory = AbstractFactory.getElectricFactory();
+System.out.println(factory.createCar("ZoE", 25000).toString());
+System.out.println(factory.createScooter("Rider", 8000).toString());
+
+factory = AbstractFactory.getGasolineFactory();
+System.out.println(factory.createCar("Hummer", 100000).toString());
+System.out.println(factory.createScooter("Tmax", 5000));
+```
+
 ## Decorator
 
-A partir d'une classe ```Car``` mis a disposition dans une bibliothèque (Pour les besoins de l'exercice il faudra créer cette classe), nous allons enrichir ses fonctionnalitées à l'aide du pattern decorator.
-
-* Créer la classe ```Car``` comme défini dans ce diagramme UML :
-
-![Car](img/car.png)
+A partir de la classe ```Car```, nous allons enrichir ses fonctionnalitées à l'aide du pattern decorator.
 
 * Implémentez le pattern decorator et implémentez 2 classes ```CarWithGPS``` et ```CarWithSunRoof```. Ces 2 classes doivent étendre une classe ```CarWithOption```.
 
@@ -18,7 +36,3 @@ L’appel à la méthode ```toString()``` héritée de ```Car``` sur un objet de
   * Une Voiture avec l'option Toit ouvrant
   * Une Voiture avec toutes les options
   * Pour chaque voiture créé appelez la méthode ```toString()``` afin de contrôler le bon fonctionnement.
-
-## Fabrique
-
-L'obectif est de créer une fabrique abstraite qui va permettre de créer des véhicules dans leurs versions essence ou éléctrique.
